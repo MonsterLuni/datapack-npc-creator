@@ -3,6 +3,8 @@ execute if score $HerobrineTextNumber Variables matches 1 run say 1 Du solltest 
 execute if score $HerobrineTextNumber Variables matches 2 run say 1 Was hat dich hier auf diesen Weg gebracht?
 execute if score $HerobrineTextNumber Variables matches 3 run function monsterluni:npc/interacting/quest-1
 execute if score $HerobrineTextNumber Variables matches 4 run say 3 Ich hätte nun aber noch einen weiteren Wunsch
+execute if score $HerobrineTextNumber Variables matches 5 run tellraw @p {"text":"Klick mich!","clickEvent":{"action":"run_command","value":"/function monsterluni:npc/interacting/test"},"color":"green"}
+
 
 scoreboard players add $HerobrineTextNumber Variables 1
 kill @e[type=interaction,name="Herobrine"]
