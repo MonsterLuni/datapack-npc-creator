@@ -1,5 +1,5 @@
-scoreboard players remove $HerobrineTextNumber Variables 1
-scoreboard players add $HerobrineQuestNumber Variables 1
+scoreboard players remove $TextNumber Variables 1
+scoreboard players add $QuestNumber Variables 1
 
-execute if score $HerobrineQuestDone Variables matches 1 run scoreboard players add $HerobrineTextNumber Variables 1
-execute if score $HerobrineQuestDone Variables matches 1 run scoreboard players add $HerobrineQuestNumber Variables 0
+execute if score $QuestDone Variables matches 1 run scoreboard players add $TextNumber Variables 1
+execute if score $QuestDone Variables matches 1 run scoreboard players add $QuestNumber Variables 0

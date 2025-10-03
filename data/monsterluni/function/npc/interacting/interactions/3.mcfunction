@@ -1,0 +1,1 @@
+execute if score $TextNumber Variables matches 0 run say Das hier ist die nächste dritte Interaction!

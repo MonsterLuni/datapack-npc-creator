@@ -1,1 +1,2 @@
-time set day
+function monsterluni:utility/clearchat
+say "Hallöchen"
